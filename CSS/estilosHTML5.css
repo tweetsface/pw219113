@@ -1,0 +1,27 @@
+body{
+
+	max-width: 1024px;
+}
+header{
+	/*Color fondo*/
+	background: blue;
+     /*COLOR DE LETRA*/
+	color:white; 
+	/*Centrar texto*/
+	text-align: center;
+
+}
+  header nav ul li{
+  	   /*Vista*/
+  	   background: orange;
+  	   border-radius:5px;
+  	   color:black;
+  	   display: inline-block;
+  	   width:90px;
+  }
+
+   header nav ul li:hover{
+   	/*HOVER CUANDO PASE EL MOUSE POR LI QUE QUIERO QUE PASE*/
+   	background: black;
+   	color:orange;
+   }	
