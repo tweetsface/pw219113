@@ -3,12 +3,13 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Practica 02 HTML5+CSS3</title>
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
 </head>
 <body>
 	<header>
 		 <img src="img/banner.png" alt="">
-		 <img src="img/granthams.png" alt="">
-		 <img src="img/paint.png" alt="">
+		 <img src="img/granthams.png" alt="" id="granthams">
+		 <img src="img/paint.png" alt="" id="paint">
 		 <input type="search" placeholder="Search">
 		   <nav>
 		   	  <ul>
@@ -20,12 +21,14 @@
 		   	  </ul>
 		   </nav>
 	</header>
-	<section>
-		   <article>
+	<section id="primerSeccion">
+		   <article id=secc01art01>
 		   	   <img src="img/slide.jpg" alt="">
 		   </article>
-		   <article>
-		   	we can offer...
+		   <article id="secc01art02">
+		   	<span class="colorrosa letragrande nito">
+		   		we can offer...
+		   	</span>
 		   	<ul>
 		   		 <li>Highly Competitive Prices</li>
 		   		 <li>Variable Data</li>
@@ -38,26 +41,33 @@
 
 		   	</ul>
 		   </article>
-		   <img src="img/bg_offer.png" alt="">
+		   <img src="img/bg_offer.png" alt="" id="bfoffer">
 	</section>	
-	<section>
+	<section id="segundaSeccion">
 		<article>
-			 01772 250207
+			<span class="colorrosa letramediana nito"> 01772 
+			</span>
+			
 		</article>
 	</section>
-	<section>
+	<section id="terceraSeccion">
 		<article>
 			<img src="img/cerdito.png" alt="">
+			<span class="colorrosa nito"> </span>
 			Save this Spring
 			<br>
 			Fabulous discount on canva's and roll up's as
 			well as many offera
 			<p>
-			   Find out more..
+				<span class="colorrosa nito">
+					Find out more..
+				</span>
 		</article>
 		<article>
 			 <img src="img/hoja.png" alt="">
-			 Eco Friendly
+			 <span class="colorverde nito">
+			 	Find out more..
+			 </span>
 			 <br>
 			 Eco Friendly Materiaks used in our production 
 			 process.
@@ -69,7 +79,9 @@
 		</article>
 		<article>
 			<img src="img/new.png"	alt="">
+			<span class="colorazul nito">
 			Upload your file
+			</span>
 			<br>
 			Making it easy to order your printing today.
 			Our upload facility enables you send your files
@@ -77,11 +89,14 @@
 			us of your order,then sit back and wait for a 
 			member of our team to contact you.
 			<p>		
-			  Upload your file now
-			
+				<span class="colorazul">
+					Upload your file now
+				</span>
 		</article>
 		<article>
+			<span class="colorrosa">
 			 Stay in touch
+			 </span>
 			 <br>
 			 <input type="email" placeholder="email goes here">
 			 <input type="button" placeholder="send">
